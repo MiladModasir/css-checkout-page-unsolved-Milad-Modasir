@@ -61,12 +61,13 @@ i {
 
 /* 🔴 CSS Syntax Error here 👇 */
 .box {
-  background: linear-gradient(#17192c, #1a1c30),
-  border 1px solid #2c3044;
+  background: linear-gradient(#17192c, #1a1c30);
+  border: 1px solid #2c3044; 
   padding: 30px;
   width: 100%;
   border-radius: 16px;
 }
+
 
 .layout-column {
   width: 100%;
@@ -193,9 +194,10 @@ label {
   bottom: 0;
   left: 0;
   right: 0;
-  background-image: url("/assets/backgrounds/review-bg.png")
-  background-size cover;
+  background-image: url("/assets/backgrounds/review-bg.png"); 
+  background-size: cover;
 }
+
 
 .reviews .image-wrapper {
   min-width: 80px;
